@@ -1,14 +1,14 @@
 {
-    "name": "joaoalvescosta/easypay-php",
+    "name": "gordalina/easypay-php",
     "type": "library",
     "description": "PHP library to communicate with easypay.pt API",
-    "keywords": ["easypay", "php"],
-    "homepage": "https://github.com/joaoalvescosta/easypay-php",
+    "keywords": ["easypay"],
+    "homepage": "https://github.com/gordalina/easypay-php",
     "license": "MIT",
     "authors": [
         {
-            "name": "joaoalvescosta",
-            "email": "joaoalvescosta@gmail.com"
+            "name": "gordalina",
+            "email": "samuel.gordalina@gmail.com"
         }
     ],
     "require": {
@@ -23,3 +23,4 @@
         "psr-0": { "Gordalina\\Easypay": "src/" }
     }
 }
+

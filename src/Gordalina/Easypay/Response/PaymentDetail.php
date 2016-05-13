@@ -121,9 +121,7 @@ class PaymentDetail extends AbstractResponse implements ResponseInterface
             'ep_value' => array('value', function ($data) {
                 return (float) $data;
             }),
-            't_key' => array('key', function ($data) {
-                return (int) $data;
-            }),
+            't_key' => 'key',
             'ep_status' => 'status',
             'ep_message' => 'message',
 
